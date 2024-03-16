@@ -1,0 +1,6 @@
+{
+    "dbt.queryLimit": 500,
+    "dbt.enableNewLineagePanel": true,
+    "dbt.queryTemplate": "select top  {limit} * from ({query}) as query ",
+    "dbt.enableNewQueryPanel": true
+}
